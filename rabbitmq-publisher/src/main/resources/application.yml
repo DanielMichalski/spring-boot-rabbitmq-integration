@@ -1,0 +1,11 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+spring:
+  rabbitmq:
+    host: localhost
+    username: user
+    password: password
+    port: 5672
