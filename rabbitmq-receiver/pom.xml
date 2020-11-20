@@ -9,10 +9,10 @@
 		<relativePath/>
 	</parent>
 	<groupId>com.danielmichalski</groupId>
-	<artifactId>rabbitmq-publisher</artifactId>
+	<artifactId>rabbitmq-receiver</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
-	<name>RabbitMQ Publisher</name>
-	<description>RabbitMQ Publisher</description>
+	<name>RabbitMQ Receiver</name>
+	<description>RabbitMQ Receiver</description>
 
 	<properties>
 		<maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
