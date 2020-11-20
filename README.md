@@ -13,6 +13,7 @@ The project is built using Java, Spring Boot, RabbitMQ and Docker.
     * [On MacOS/ Linux](#on-macos-linux)
 * [RabbitMQ access](#rabbitmq-access)
 * [Sending message](#sending-message)
+* [Screens](#screens)
 
 ## Prerequisites
 - [Java JDK](https://www.oracle.com/pl/java/technologies/javase-downloads.html) version 8+
@@ -70,3 +71,6 @@ In order to send a message to the queue please send a request:
 ```bash
 curl --header "Content-Type: application/json" --request POST --data "{\"firstName\":\"John\",\"lastName\":\"Black\"}" http://localhost:8080/api/messages
 ```
+
+## Screens
+![Screen 1](https://github.com/DanielMichalski/spring-boot-rabbitmq-integration/blob/master/.github/images/RabbitMQ.jpg "Screen 1")
