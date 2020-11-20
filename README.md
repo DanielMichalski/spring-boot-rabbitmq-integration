@@ -1,4 +1,5 @@
 # Spring Boot RabbitM Integration
+[![Build Status](https://github.com/DanielMichalski/spring-boot-rabbitmq-integration/workflows/Java%20CI%20with%20Maven/badge.svg?branch=master)](https://github.com/DanielMichalski/spring-boot-rabbitmq-integration/actions?query=workflow%3A%22Java+CI+with+Maven%22)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/DanielMichalski/spring-boot-java-swing-reservations/blob/master/LICENSE)
 
 This project aims to present how to create and configure a Spring Boot + RabbitMQ application.
