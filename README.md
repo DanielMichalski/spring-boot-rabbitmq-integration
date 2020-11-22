@@ -74,3 +74,10 @@ curl --header "Content-Type: application/json" --request POST --data "{\"firstNa
 
 ## Screens
 ![Screen 1](https://github.com/DanielMichalski/spring-boot-rabbitmq-integration/blob/master/.github/images/RabbitMQ.jpg "Screen 1")
+
+![Screen 2](https://github.com/DanielMichalski/spring-boot-rabbitmq-integration/blob/master/.github/images/Command.jpg "Screen 2")
+
+![Screen 3](https://github.com/DanielMichalski/spring-boot-rabbitmq-integration/blob/master/.github/images/Publisher.jpg "Screen 3")
+
+![Screen 4](https://github.com/DanielMichalski/spring-boot-rabbitmq-integration/blob/master/.github/images/Receiver.jpg "Screen 4")
+
