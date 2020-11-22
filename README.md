@@ -34,14 +34,12 @@ cd .docker/dependencies
 start.sh
 
 ## Build and run publisher application using Maven Wrapper
-cd rabbitmq-publisher
-mvnw.cmd clean install
-mvnw.cmd spring-boot:run
+mvnw.cmd -f rabbitmq-publisher/pom.xml clean install
+mvnw.cmd -f rabbitmq-publisher/pom.xml spring-boot:run
 
 ## Build and run receiver application using Maven Wrapper
-cd rabbitmq-receiver
-mvnw.cmd clean install
-mvnw.cmd spring-boot:run
+mvnw.cmd -f rabbitmq-receiver/pom.xml clean install
+mvnw.cmd -f rabbitmq-receiver/pom.xml spring-boot:run
 ```
 
 #### On MacOS/ Linux
@@ -51,14 +49,12 @@ cd .docker/dependencies
 ./start.sh
 
 ## Build and run publisher application using Maven Wrapper
-cd rabbitmq-publisher
-./mvnw clean install
-./mvnw spring-boot:run
+./mvnw -f rabbitmq-publisher/pom.xml clean install
+./mvnw -f rabbitmq-publisher/pom.xml spring-boot:run
 
 ## Build and run receiver application using Maven Wrapper
-cd rabbitmq-receiver
-./mvnw clean install
-./mvnw spring-boot:run
+./mvnw -f rabbitmq-receiver/pom.xml clean install
+./mvnw -f rabbitmq-receiver/pom.xml spring-boot:run
 ```
 
 ## RabbitMQ access
