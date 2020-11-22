@@ -64,7 +64,7 @@ cd rabbitmq-receiver
 ## RabbitMQ access
 | RabbitMQ URL            | Username     | Password   |
 |-------------------------|--------------|----------- |
-| http://localhost:15672  | user         | password   |
+| http://localhost:15672  | admin        | admin   |
 
 ## Sending message
 In order to send a message to the queue please send a request:

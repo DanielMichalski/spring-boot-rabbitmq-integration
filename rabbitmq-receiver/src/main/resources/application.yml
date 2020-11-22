@@ -4,6 +4,6 @@ server:
 spring:
   rabbitmq:
     host: localhost
-    username: user
-    password: password
+    username: admin
+    password: admin
     port: 5672

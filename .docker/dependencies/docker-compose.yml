@@ -3,12 +3,9 @@ version: '3.8'
 services:
   rabbitmq:
     container_name: rabbitmq
-    image: ${RABBIT_IMAGE}
-    environment:
-      - RABBITMQ_USERNAME=${RABBIT_USERNAME}
-      - RABBITMQ_PASSWORD=${RABBIT_PASSWORD}
-    volumes:
-      - ./rabbitmq/data:/bitnami
+    build:
+      context: ./rabbitmq
+      dockerfile: Dockerfile
     ports:
       - 5672:5672
       - 15672:15672
