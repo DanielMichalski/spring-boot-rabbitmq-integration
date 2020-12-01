@@ -1,17 +1,17 @@
 package com.danielmichalski.rabbitmqreceiver.model;
 
-import lombok.*;
-
 import java.io.Serializable;
+
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
 
 @Getter
 @Setter
-@Builder
-@NoArgsConstructor
-@AllArgsConstructor
 @ToString
 public class UserDto implements Serializable {
 
-  private String firstName;
-  private String lastName;
+    private String firstName;
+    private String lastName;
+
 }
