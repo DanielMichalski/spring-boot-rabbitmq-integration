@@ -30,31 +30,25 @@ The project is built using Java, Spring Boot, RabbitMQ and Docker.
 #### On Windows
 ```bash
 ## Run RabbitMQ on Docker
-cd .docker/dependencies
-start.sh
+docker-compose up -d
 
 ## Build and run publisher application using Maven Wrapper
-mvnw.cmd -f rabbitmq-publisher/pom.xml clean install
-mvnw.cmd -f rabbitmq-publisher/pom.xml spring-boot:run
+mvnw.cmd -f rabbitmq-publisher/pom.xml clean install spring-boot:run
 
 ## Build and run receiver application using Maven Wrapper
-mvnw.cmd -f rabbitmq-receiver/pom.xml clean install
-mvnw.cmd -f rabbitmq-receiver/pom.xml spring-boot:run
+mvnw.cmd -f rabbitmq-receiver/pom.xml clean install spring-boot:run
 ```
 
 #### On MacOS/ Linux
 ```bash
 ## Run RabbitMQ on Docker
-cd .docker/dependencies
-./start.sh
+docker-compose up -d
 
 ## Build and run publisher application using Maven Wrapper
-./mvnw -f rabbitmq-publisher/pom.xml clean install
-./mvnw -f rabbitmq-publisher/pom.xml spring-boot:run
+./mvnw -f rabbitmq-publisher/pom.xml clean install spring-boot:run
 
 ## Build and run receiver application using Maven Wrapper
-./mvnw -f rabbitmq-receiver/pom.xml clean install
-./mvnw -f rabbitmq-receiver/pom.xml spring-boot:run
+./mvnw -f rabbitmq-receiver/pom.xml clean install spring-boot:run
 ```
 
 ## RabbitMQ access
